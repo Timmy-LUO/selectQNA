@@ -13,6 +13,7 @@
 		D90D37812654F47C008A2A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90D377F2654F47C008A2A26 /* Main.storyboard */; };
 		D90D37832654F47D008A2A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90D37822654F47D008A2A26 /* Assets.xcassets */; };
 		D90D37862654F47D008A2A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90D37842654F47D008A2A26 /* LaunchScreen.storyboard */; };
+		D90D378E2654FC89008A2A26 /* Qusetion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90D378D2654FC89008A2A26 /* Qusetion.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D90D37822654F47D008A2A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D90D37852654F47D008A2A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D90D37872654F47D008A2A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90D378D2654FC89008A2A26 /* Qusetion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Qusetion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D90D377B2654F47C008A2A26 /* SceneDelegate.swift */,
 				D90D377D2654F47C008A2A26 /* ViewController.swift */,
 				D90D377F2654F47C008A2A26 /* Main.storyboard */,
+				D90D378D2654FC89008A2A26 /* Qusetion.swift */,
 				D90D37822654F47D008A2A26 /* Assets.xcassets */,
 				D90D37842654F47D008A2A26 /* LaunchScreen.storyboard */,
 				D90D37872654F47D008A2A26 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90D377E2654F47C008A2A26 /* ViewController.swift in Sources */,
+				D90D378E2654FC89008A2A26 /* Qusetion.swift in Sources */,
 				D90D377A2654F47C008A2A26 /* AppDelegate.swift in Sources */,
 				D90D377C2654F47C008A2A26 /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.selectQNA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.selectQNA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
